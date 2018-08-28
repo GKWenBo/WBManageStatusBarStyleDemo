@@ -10,7 +10,7 @@
 #import "WBNavigationController.h"
 #import "ViewController.h"
 
-#import "UINavigationController+WBStatusBarStyle.h"
+#import "UINavigationBar+WBBarStyle.h"
 
 @interface AppDelegate ()
 
@@ -28,7 +28,7 @@
     ViewController *vc = [ViewController new];
     WBNavigationController *nav = [[WBNavigationController alloc]initWithRootViewController:vc];
     
-    [UINavigationController wb_setDefaultStatusBarStyle:UIStatusBarStyleDefault];
+    [UINavigationBar wb_setDefaultStatusBarStyle:UIStatusBarStyleDefault];
     
     _window.rootViewController = nav;
     [_window makeKeyAndVisible];

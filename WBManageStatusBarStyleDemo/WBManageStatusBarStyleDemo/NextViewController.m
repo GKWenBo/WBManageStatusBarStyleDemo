@@ -7,7 +7,7 @@
 //
 
 #import "NextViewController.h"
-#import "UINavigationController+WBStatusBarStyle.h"
+#import "UINavigationBar+WBBarStyle.h"
 
 @interface NextViewController ()
 

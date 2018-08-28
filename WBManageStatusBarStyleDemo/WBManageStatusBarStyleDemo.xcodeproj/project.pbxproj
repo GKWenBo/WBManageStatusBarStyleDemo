@@ -16,7 +16,7 @@
 		C5F8F6D0210A087500FBDABB /* WBManageStatusBarStyleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F8F6CF210A087500FBDABB /* WBManageStatusBarStyleDemoUITests.m */; };
 		C5F8F6DF210A08B100FBDABB /* WBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F8F6DE210A08B100FBDABB /* WBNavigationController.m */; };
 		C5F8F6E2210A09C800FBDABB /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F8F6E1210A09C800FBDABB /* NextViewController.m */; };
-		C5F8F6E9210A183300FBDABB /* UINavigationController+WBStatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = C5F8F6E7210A183200FBDABB /* UINavigationController+WBStatusBarStyle.m */; };
+		D0B5298E213506B600D957CF /* UINavigationBar+WBBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B5298D213506B600D957CF /* UINavigationBar+WBBarStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,8 +56,8 @@
 		C5F8F6DE210A08B100FBDABB /* WBNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBNavigationController.m; sourceTree = "<group>"; };
 		C5F8F6E0210A09C800FBDABB /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
 		C5F8F6E1210A09C800FBDABB /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
-		C5F8F6E7210A183200FBDABB /* UINavigationController+WBStatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WBStatusBarStyle.m"; sourceTree = "<group>"; };
-		C5F8F6E8210A183200FBDABB /* UINavigationController+WBStatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WBStatusBarStyle.h"; sourceTree = "<group>"; };
+		D0B5298C213506B600D957CF /* UINavigationBar+WBBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+WBBarStyle.h"; sourceTree = "<group>"; };
+		D0B5298D213506B600D957CF /* UINavigationBar+WBBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+WBBarStyle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 		C5F8F6AA210A087300FBDABB /* WBManageStatusBarStyleDemo */ = {
 			isa = PBXGroup;
 			children = (
-				C5F8F6E6210A183200FBDABB /* UINavigationController */,
+				D0B5298B213506B600D957CF /* UINavigationBar */,
 				C5F8F6AB210A087300FBDABB /* AppDelegate.h */,
 				C5F8F6AC210A087300FBDABB /* AppDelegate.m */,
 				C5F8F6AE210A087300FBDABB /* ViewController.h */,
@@ -143,13 +143,13 @@
 			path = WBManageStatusBarStyleDemoUITests;
 			sourceTree = "<group>";
 		};
-		C5F8F6E6210A183200FBDABB /* UINavigationController */ = {
+		D0B5298B213506B600D957CF /* UINavigationBar */ = {
 			isa = PBXGroup;
 			children = (
-				C5F8F6E8210A183200FBDABB /* UINavigationController+WBStatusBarStyle.h */,
-				C5F8F6E7210A183200FBDABB /* UINavigationController+WBStatusBarStyle.m */,
+				D0B5298C213506B600D957CF /* UINavigationBar+WBBarStyle.h */,
+				D0B5298D213506B600D957CF /* UINavigationBar+WBBarStyle.m */,
 			);
-			path = UINavigationController;
+			path = UINavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,11 +281,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5F8F6E9210A183300FBDABB /* UINavigationController+WBStatusBarStyle.m in Sources */,
 				C5F8F6E2210A09C800FBDABB /* NextViewController.m in Sources */,
 				C5F8F6DF210A08B100FBDABB /* WBNavigationController.m in Sources */,
 				C5F8F6B0210A087300FBDABB /* ViewController.m in Sources */,
 				C5F8F6BB210A087500FBDABB /* main.m in Sources */,
+				D0B5298E213506B600D957CF /* UINavigationBar+WBBarStyle.m in Sources */,
 				C5F8F6AD210A087300FBDABB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
